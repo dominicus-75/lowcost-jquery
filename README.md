@@ -3,7 +3,7 @@ Lowcost Jquery imitation :)
 
 Example:
 
-<script src="js/lowcost-jquery-1.0.0.js"></script>
+<code><script src="js/lowcost-jquery-1.0.0.js"></script>
 <script>
 
 $(document).ready(function() {
@@ -23,4 +23,4 @@ $(document).ready(function() {
 
 }
   
-</script>
+</script></code>
