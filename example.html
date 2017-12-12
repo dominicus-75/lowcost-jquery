@@ -20,7 +20,7 @@
           url: "/example.php", //target url
           data: "keyword="+this.value, //key and value to $_POST['keyword']
           success: function(data) {
-            $("#resultId").innerHTML = xhr.responseText;
+            $("#resultId").innerHTML = data;
           }
         });
       }
