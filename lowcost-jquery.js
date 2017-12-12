@@ -30,7 +30,7 @@
     xhr.onload = function() {
       if (xhr.readyState == 4 && xhr.status == 200) {
         if(typeof request.success === "function") {
-          request.success(xhr);
+          request.success(xhr.responseText);
         }
       }
     };
